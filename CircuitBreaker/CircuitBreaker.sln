@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircuitBreaker.Core", "CircuitBreaker.Core\CircuitBreaker.Core.csproj", "{5E2DEA1A-DF5B-4AFC-945D-8972251ABB06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApplication1", "SampleApplication1\SampleApplication1.csproj", "{8BF32FA5-AAC3-4A5E-AFB7-C8EA891C4DAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{8261A66F-61CE-41E3-836F-A7FDE387B3A0}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\ReadMe.txt = Docs\ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs36
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CircuitBreaker.Core\\CircuitBreaker.Core.csproj
+		SccProjectName1 = CircuitBreaker.Core
+		SccLocalPath1 = CircuitBreaker.Core
+		SccProjectUniqueName2 = SampleApplication1\\SampleApplication1.csproj
+		SccProjectName2 = SampleApplication1
+		SccLocalPath2 = SampleApplication1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E2DEA1A-DF5B-4AFC-945D-8972251ABB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2DEA1A-DF5B-4AFC-945D-8972251ABB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2DEA1A-DF5B-4AFC-945D-8972251ABB06}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5E2DEA1A-DF5B-4AFC-945D-8972251ABB06}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5E2DEA1A-DF5B-4AFC-945D-8972251ABB06}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E2DEA1A-DF5B-4AFC-945D-8972251ABB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2DEA1A-DF5B-4AFC-945D-8972251ABB06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2DEA1A-DF5B-4AFC-945D-8972251ABB06}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5E2DEA1A-DF5B-4AFC-945D-8972251ABB06}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5E2DEA1A-DF5B-4AFC-945D-8972251ABB06}.Release|x86.ActiveCfg = Release|Any CPU
+		{8BF32FA5-AAC3-4A5E-AFB7-C8EA891C4DAD}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8BF32FA5-AAC3-4A5E-AFB7-C8EA891C4DAD}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8BF32FA5-AAC3-4A5E-AFB7-C8EA891C4DAD}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8BF32FA5-AAC3-4A5E-AFB7-C8EA891C4DAD}.Debug|x86.ActiveCfg = Debug|x86
+		{8BF32FA5-AAC3-4A5E-AFB7-C8EA891C4DAD}.Debug|x86.Build.0 = Debug|x86
+		{8BF32FA5-AAC3-4A5E-AFB7-C8EA891C4DAD}.Release|Any CPU.ActiveCfg = Release|x86
+		{8BF32FA5-AAC3-4A5E-AFB7-C8EA891C4DAD}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8BF32FA5-AAC3-4A5E-AFB7-C8EA891C4DAD}.Release|Mixed Platforms.Build.0 = Release|x86
+		{8BF32FA5-AAC3-4A5E-AFB7-C8EA891C4DAD}.Release|x86.ActiveCfg = Release|x86
+		{8BF32FA5-AAC3-4A5E-AFB7-C8EA891C4DAD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
