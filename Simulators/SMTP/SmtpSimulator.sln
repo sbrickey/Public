@@ -5,9 +5,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpSimulator", "SmtpSimula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpSimulator.Core", "SmtpSimulator.Core\SmtpSimulator.Core.csproj", "{D6F5213E-A69B-481E-B9AF-37987EAF5E22}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{F07B382A-584D-4205-A279-FC83E79A6E4D}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\ReadMe.txt = Docs\ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpSimulator.Core.Tests", "SmtpSimulator.Core.Tests\SmtpSimulator.Core.Tests.csproj", "{A577B782-7027-4BD3-81D5-26C0785EAF31}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
+		SccNumberOfProjects = 4
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs36
 		SccLocalPath0 = .
@@ -17,6 +24,9 @@ Global
 		SccProjectUniqueName2 = SmtpSimulator\\SmtpSimulator.csproj
 		SccProjectName2 = SmtpSimulator
 		SccLocalPath2 = SmtpSimulator
+		SccProjectUniqueName3 = SmtpSimulator.Core.Tests\\SmtpSimulator.Core.Tests.csproj
+		SccProjectName3 = SmtpSimulator.Core.Tests
+		SccLocalPath3 = SmtpSimulator.Core.Tests
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +41,10 @@ Global
 		{D6F5213E-A69B-481E-B9AF-37987EAF5E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6F5213E-A69B-481E-B9AF-37987EAF5E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6F5213E-A69B-481E-B9AF-37987EAF5E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A577B782-7027-4BD3-81D5-26C0785EAF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A577B782-7027-4BD3-81D5-26C0785EAF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A577B782-7027-4BD3-81D5-26C0785EAF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A577B782-7027-4BD3-81D5-26C0785EAF31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
