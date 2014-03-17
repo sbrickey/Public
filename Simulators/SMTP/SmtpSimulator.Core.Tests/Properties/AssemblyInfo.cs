@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SmtpSimulator.Core.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Sherman Enterprise IT Operations")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SmtpSimulator.Core.Tests")]
-[assembly: AssemblyCopyright("Copyright © Sherman Enterprise IT Operations 2014")]
+[assembly: AssemblyCopyright("Copyright © Scott Brickey 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
