@@ -1,0 +1,6 @@
+﻿<!-- TODO: update service registrations below... don't forget public key token! -->
+<%@ServiceHost
+    Language="C#"
+    Service="SBrickey.SPServiceAppTemplate.SharePoint.ServiceApp.Provider.WebServiceApp, SBrickey.SPServiceAppTemplate.SharePoint.ServiceApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5225f788a3fdba38" 
+    Factory="SBrickey.SPServiceAppTemplate.SharePoint.ServiceApp.Provider.WebServiceHostFactory, SBrickey.SPServiceAppTemplate.SharePoint.ServiceApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5225f788a3fdba38"
+%>

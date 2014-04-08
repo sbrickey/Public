@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="62e4260b-d9df-416a-add2-51a75d77cf7e" solutionId="62e4260b-d9df-416a-add2-51a75d77cf7e" resetWebServer="false" name="SPServiceAppTemplate" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="SBrickey.SPServiceAppTemplate.Common.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Common\Common.csproj" />
+    <projectOutputAssembly location="SBrickey.SPServiceAppTemplate.SharePoint.ServiceApp.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\SharePoint.ServiceApp\SharePoint.ServiceApp.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="577bfae4-2cfd-4bba-ae47-5f92f5e86d72" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="f868b09d-3708-4065-b914-06774667ce0f" />
+    <projectItemReference itemId="41e1ce4c-9430-435c-9d10-633927b48415" />
+    <projectItemReference itemId="8f78ef8e-b8fd-4bb7-a423-af7e272fcb00" />
+    <projectItemReference itemId="7340c63e-98df-4ccb-af27-93e92a001a64" />
+    <projectItemReference itemId="c4f04aac-0d7c-4c3b-b909-7cdc725abb95" />
+  </projectItems>
+</package>
