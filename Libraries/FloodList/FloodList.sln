@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloodList", "FloodList\FloodList.csproj", "{022955DE-0C77-416B-BECD-C829E2A797EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloodList.Tests", "FloodList.Tests\FloodList.Tests.csproj", "{229101E1-5E00-4C18-93FE-8552D1ADB366}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4088971D-358A-44E0-9BF5-BA995265ECC9}"
+	ProjectSection(SolutionItems) = preProject
+		FloodList.vsmdi = FloodList.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs36
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FloodList.Tests\\FloodList.Tests.csproj
+		SccProjectName1 = FloodList.Tests
+		SccLocalPath1 = FloodList.Tests
+		SccProjectUniqueName2 = FloodList\\FloodList.csproj
+		SccProjectName2 = FloodList
+		SccLocalPath2 = FloodList
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{022955DE-0C77-416B-BECD-C829E2A797EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022955DE-0C77-416B-BECD-C829E2A797EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022955DE-0C77-416B-BECD-C829E2A797EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022955DE-0C77-416B-BECD-C829E2A797EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229101E1-5E00-4C18-93FE-8552D1ADB366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229101E1-5E00-4C18-93FE-8552D1ADB366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229101E1-5E00-4C18-93FE-8552D1ADB366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229101E1-5E00-4C18-93FE-8552D1ADB366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FloodList.vsmdi
+	EndGlobalSection
+EndGlobal
