@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32API", "Win32API\Win32API.csproj", "{C668207D-1F57-4736-985A-E3EF454E8F3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32API.Tests", "Win32API.Tests\Win32API.Tests.csproj", "{1430FBC1-05FA-4426-BA5B-0F2E44681B13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{749B8A68-A133-49ED-8C6B-BB2191D737EE}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		Win32API.vsmdi = Win32API.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs36
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Win32API.Tests\\Win32API.Tests.csproj
+		SccProjectName1 = Win32API.Tests
+		SccLocalPath1 = Win32API.Tests
+		SccProjectUniqueName2 = Win32API\\Win32API.csproj
+		SccProjectName2 = Win32API
+		SccLocalPath2 = Win32API
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C668207D-1F57-4736-985A-E3EF454E8F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C668207D-1F57-4736-985A-E3EF454E8F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C668207D-1F57-4736-985A-E3EF454E8F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C668207D-1F57-4736-985A-E3EF454E8F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1430FBC1-05FA-4426-BA5B-0F2E44681B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1430FBC1-05FA-4426-BA5B-0F2E44681B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1430FBC1-05FA-4426-BA5B-0F2E44681B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1430FBC1-05FA-4426-BA5B-0F2E44681B13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Win32API.vsmdi
+	EndGlobalSection
+EndGlobal
