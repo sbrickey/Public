@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 
-namespace NYOCA.Client.Common.Generics
+namespace SBrickey.Libraries.Generics
 {
     abstract public class MyNPC : INotifyPropertyChanged
     {

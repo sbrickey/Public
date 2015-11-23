@@ -1,4 +1,4 @@
-﻿namespace NYOCA.Client.Common.Generics
+﻿namespace SBrickey.Libraries.Generics
 {
     using System;
     using System.Collections.Generic;
