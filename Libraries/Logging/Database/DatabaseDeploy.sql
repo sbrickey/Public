@@ -1,7 +1,7 @@
 ﻿PRINT 'Log Structure rollout'
 
--- SERVER VALIDATION : SQLx2
-IF (PATINDEX('%SQL[D|T|0]2', @@SERVERNAME) = 0)
+-- SERVER VALIDATION : SQL[DEV|TEST|PROD]
+IF (PATINDEX('%SQL[D|T|P]', @@SERVERNAME) = 0)
 BEGIN
 	raiserror('WRONG SERVER!!!', 20, -1) with log
 END
