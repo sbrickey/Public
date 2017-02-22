@@ -1,0 +1,52 @@
+﻿This library allows for application parameters/settings to be defined by attribute, using
+ various sources (AppSettings, command line parameters), and allows the loading of data to
+ be ordered by your own requirements.
+
+The library includes command line parsing code that I've used in several scenarios and
+ continues to prove to be robust, and is demonstrated via unit test coverage.
+
+
+
+EXAMPLE USE
+**********************************************************************
+public class MyAppSettings
+{
+	[Required]
+	[AppSetting("MyCustomSettingKey")]
+	[CmdLineParam("MyCustomSettingParam")]
+	public string MyCustomSetting { get; set; } = "defaultValue";
+
+
+	public void Load()
+	{
+		AppSettingAttribute.Load(this);
+		CmdLineParamAttribute.Load(this);
+		
+		var missing = RequiredAttribute.FindNulls(this);
+		if (missing.Any())
+			throw new ArgumentException(String.Join(", ", missingParams.ToArray()));
+	}
+}
+
+In this example, the property "MyCustomSetting" has a default value of "defaultValue"
+												can be populated via the app configuration file in AppSettings with the key "MyCustomSettingKey"
+												can be populated via the command line parameters using the prefix/key "MyCustomSettingParam"
+
+Since best practice is for constructors to have NO SIDE EFFECTS, the loading of data is moved into the Load method.
+- During the constructor, the initializer assigns the default value
+- During AppSettingAttribute.Load, any settings provided in the app setting will override the default value
+- During CmdLineParamAttribute.Load, any command line arguments will override the previous value (which is either the default value, or app setting value)
+- Finally, RequiredAttribute.FindNulls will return a list of parameters which have NULL values, for error reporting
+
+- Even though a default value is provided, a value of String.Empty can be assigned (via AppSettings or CmdLineParams).
+  A value of String.Empty will NOT be captured with RequiredAttribute.FindNulls()
+
+
+REQUIREMENTS / NOTES
+- All of the attributes will ONLY load values into PROPERTIES or FIELDS, which are INSTANCE based, and have PUBLIC GETTERS and SETTERS
+  (if you really want to change that, feel free to fiddle with your own copy of the code)
+- The Load methods only ignore NULL values, which means that an AppSetting that is defined in the configuration
+  file, but has no value, IS NOT NULL, and will override the prior value. Remove or comment out the AppSetting entirely, to keep it out of the load process.
+- The command line parsing code includes support for switches (/p), which is identified as a parameter without
+  a value. When identified, the value is assigned Boolean.TrueString. To provide a blank VALUE using the command
+  line arguments, empty quotes must be used (ex: /p="").
