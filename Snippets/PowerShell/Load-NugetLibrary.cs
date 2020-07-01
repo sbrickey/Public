@@ -1,7 +1,9 @@
 /*
-Usage:
+Online Usage:
 Add-Type -ReferencedAssemblies @( "System.Core","System.Xml","System.IO.Compression","System.IO.Compression.FileSystem" ) `
-         -TypeDefinition ( [System.IO.File]::ReadAllText("C:\path\to\Nuget.cs") )
+         -TypeDefinition ( [System.Net.WebClient]::new().DownloadString("https://raw.githubusercontent.com/sbrickey/Public/master/Snippets/PowerShell/Load-NugetLibrary.cs") )
+
+[SBrickey.Nuget]::Load("HtmlAgilityPack")
 */
 
 using System;
